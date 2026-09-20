@@ -1,0 +1,16 @@
+# Bỏ qua các file thực thi và file đối tượng C++
+*.exe
+*.o
+*.obj
+*.out
+
+# Bỏ qua file Java biên dịch
+*.class
+
+# Bỏ qua thư mục cấu hình VS Code
+.vscode/
+# Bỏ qua thư mục cấu hình IntelliJ IDEA
+.idea/
+
+# Bỏ qua các file cấu hình lẻ của IntelliJ
+*.iml

@@ -1,0 +1,8 @@
+s1=input().lower()
+s2=input().lower()
+a=set(s1.split())
+b=set(s2.split())
+n=sorted(a|b)
+m=sorted(a&b)
+print(' '.join(n))
+print(' '.join(m))
