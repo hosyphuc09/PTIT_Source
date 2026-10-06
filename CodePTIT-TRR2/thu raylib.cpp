@@ -1,0 +1,17 @@
+#include "raylib.h"
+
+int main() {
+    InitWindow(800, 600, "Test");
+
+    while (!WindowShouldClose()) {
+        BeginDrawing();
+        ClearBackground(RAYWHITE);
+
+        DrawText("HELLO RAYLIB", 200, 200, 30, BLUE);
+
+        EndDrawing();
+    }
+
+    CloseWindow();
+    return 0;
+}
