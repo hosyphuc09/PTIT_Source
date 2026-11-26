@@ -1,0 +1,21 @@
+
+import java.io.*;
+import java.util.*;
+
+public class TaoFile {
+    public static void main(String[] args) throws Exception {
+        ArrayList<String> ds = new ArrayList<>();
+
+        ds.add("Java OOP tai PTIT");
+        ds.add("Sinh vien PTIT hoc Java");
+        ds.add("Java la ngon ngu lap trinh");
+
+        ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream("DATA.in"));
+
+        oos.writeObject(ds);
+        oos.close();
+
+        System.out.println("Da tao file DATA.in");
+    }
+}
